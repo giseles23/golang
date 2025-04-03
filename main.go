@@ -3,7 +3,11 @@ import "fmt"
 
 func main(){
 
-tamanhosapato := []int {47, 35, 8, 99, 22}
-tamanhosapato = append(tamanhosapato, 33, 37, 44)
-fmt.Println(tamanhosapato, len(tamanhosapato), cap(tamanhosapato))
+melhorespessoasdomundo := []string {"fabiano", "gisele", "heitor", "batman", "shadow"}
+nomes1e2 := melhorespessoasdomundo[0:2]
+fmt.Println(nomes1e2)
+nomes3e4 := melhorespessoasdomundo[3:]
+fmt.Println(nomes3e4)
+nomedomeio := melhorespessoasdomundo[2]
+fmt.Println(nomedomeio)
 }
